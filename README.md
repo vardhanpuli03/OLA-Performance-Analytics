@@ -53,15 +53,15 @@ List all incomplete rides along with the reason:
 select `Booking ID`, `Incomplete Rides Reason`
 from bookings
 where `Booking Status` = 'Incomplete';
-Findings
+# Findings
 Booking Trends: The majority of rides are completed, but a significant portion is canceled due to driver unavailability and high wait times.
 Revenue Growth: Revenue peaks during weekends and festive seasons, highlighting opportunities for targeted promotions.
 Customer Satisfaction: Cities with better driver availability and lower wait times show higher average ratings.
 Peak Hours: Demand is highest during morning (8–10 AM) and evening (5–8 PM) commute hours.
-Conclusions
+# Conclusions
 The analysis reveals that operational efficiency can be improved by:
 
-Reducing Cancellations: Addressing driver unavailability and reducing wait times.
+# Reducing Cancellations: Addressing driver unavailability and reducing wait times.
 Dynamic Pricing: Implementing surge pricing during peak hours to balance supply and demand.
 nDriver Incentives: Rewarding top-performing drivers to boost service quality.
 Future Work
