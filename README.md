@@ -2,7 +2,7 @@
 Project Overview
 This project focuses on analyzing OLA ride data to uncover operational inefficiencies, improve performance, and enhance customer satisfaction. By leveraging SQL for data exploration and Power BI for visualization, the analysis provides actionable insights to support data-driven business decisions.
 
-Objectives
+# Objectives
 Analyze booking trends, cancellation reasons, customer ratings, and revenue metrics.
 Identify patterns affecting operational performance and customer satisfaction.
 Provide visual insights through interactive Power BI dashboards.
@@ -12,7 +12,7 @@ The dataset includes OLA ride information such as booking status, trip details, 
 
 SQL Dataset : Link
 POWER BI Dataset : Link
-Business Problems and Solutions
+# Business Problems and Solutions
 Retrieve all successful bookings:
 select *
 from bookings
