@@ -10,22 +10,21 @@ Recommend strategies to reduce cancellations and improve service efficiency.
 Dataset
 The dataset includes OLA ride information such as booking status, trip details, customer ratings, and revenue data.
 
-SQL Dataset : Link
-POWER BI Dataset : Link
+
 # Business Problems and Solutions
-Retrieve all successful bookings:
+1. Retrieve all successful bookings:
 select *
 from bookings
 where `Booking Status` = 'Successful';
-Find the average ride distance for each vehicle type:
+2.Find the average ride distance for each vehicle type:
 select `Vehicle Type`, avg(`Ride Distance`) 
 as avg_distance
 from bookings
 group by `Vehicle Type`;
 Get the total number of cancelled rides by customers:
-select * from bookings
+3.select * from bookings
 where `Cancelled Rides by Customer` = '1';
-List the top 5 customers who booked the highest number of rides:
+4.List the top 5 customers who booked the highest number of rides:
 select `Customer ID`, count(`Booking ID`)
 as total_rides
 from bookings
